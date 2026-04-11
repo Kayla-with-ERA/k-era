@@ -1,0 +1,9 @@
+#for adding lines of text
+    git add .
+    git commit -m "Write your update message here"
+    git push origin main
+
+#for adding files
+    git add filename.file
+    git commit -m "Write your update message here"
+    git push origin main
