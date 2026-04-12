@@ -35,6 +35,7 @@
     right: 0;
     background-color: #fff;
     padding: 1.5rem 2rem;
+    display: none;
 }
 
 .sideBar-links ul {
