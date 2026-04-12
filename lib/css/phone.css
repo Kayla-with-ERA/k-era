@@ -1,0 +1,82 @@
+@import url(style.css);
+
+.headBar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    height: 60px;
+    background-color: #fff;
+    border-bottom: 1px solid #e5e7eb;
+    box-sizing: border-box;
+}
+
+.nav-logo-div {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.nav-logo img {
+    height: 32px;
+    width: auto;
+}
+
+.nav-logo-label {
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.sideBar {
+    height: 100vh;
+    width: 80%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    padding: 1.5rem 2rem;
+}
+
+.sideBar-links ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sideBar-links ul li {
+    margin-bottom: 1.5rem;
+}
+
+.sideBar-links a {
+    text-decoration: none;
+    color: #555;
+    font-size: 0.95rem;
+}
+
+.sideBar-links a:hover {
+    color: #000;
+}
+.sideBar-close {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sideBar-button a {
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+    padding: 0.5rem 1.25rem;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.sideBar-button a:hover {
+    background-color: #333;
+}
+
+
+
+.nav-links, .nav-cta {
+    display: none;
+}

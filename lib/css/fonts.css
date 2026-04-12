@@ -1,4 +1,13 @@
 @font-face {
     font-family: "Cubao Free Narrow";
-    src: url(..\fonts\Cubao_Free\Cubao_Free_Narrow.otf);
+    src: url(../fonts/Cubao_Free/Cubao_Free_Narrow.otf);
+    font-weight: bold; 
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Avenir LT Pro";
+    src: url(../fonts/Avenir_LT_Pro/AvenirLTProMedium.otf);
+    font-weight: normal;
+    font-style: normal;
 }

@@ -1,4 +1,54 @@
 @import url(fonts.css);
-body {
-    font-family: 'Cubao Free Narrow', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+:root {
+    --heading-font: 'Cubao Free Narrow', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    --body-font: 'Avenir LT Pro', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    --bg-colour: #f5f3e3;
+    --main-colour: green;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--body-font);
+    background-color: var(--bg-colour);
+}
+
+.heading, h1, h2 {
+    font-family: var(--heading-font);
+    text-transform: uppercase;
+}
+.nav-logo-label{
+    font-family: var(--heading-font);
+}
+
+.headBar {
+    width: 100%;
+    background-color: var(--main-colour);
+    padding: 0 1rem;
+}
+
+.material-symbols-outlined {
+    user-select: none;
+    -moz-user-select: none;
+    -moz-user-select: -moz-none;
+}
+
+.headBar .material-symbols-outlined, .sideBar .material-symbols-outlined {
+    border-radius: 50%;
+    padding: 0.55rem;
+    transition: 0.2s;
+}
+
+.sideBar .material-symbols-outlined:hover, 
+.headBar .material-symbols-outlined:hover {
+    background-color: #191b1a17;
+}
+
+.headBar .material-symbols-outlined:active, 
+.sideBar .material-symbols-outlined:active {
+    background-color: #191b1a2f;
 }
